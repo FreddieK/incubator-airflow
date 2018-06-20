@@ -125,7 +125,7 @@ It is usually best to work in a virtualenv and tox. Install development requirem
     cd $AIRFLOW_HOME
     virtualenv env
     source env/bin/activate
-    pip install -e .[devel]
+    pip install -e ".[devel]"
     tox
 
 Feel free to customize based on the extras available in [setup.py](./setup.py)
